@@ -14,7 +14,7 @@ DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'CNAME']
 TIMEZONE = 'America/Denver'
 DEFAULT_LANG = 'en'
 
