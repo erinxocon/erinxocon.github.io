@@ -5,37 +5,30 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://meatlo.af/</loc>
-<lastmod>2019-01-31T22:25:59-00:00</lastmod>
+<lastmod>2019-01-31T23:04:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/archives.html</loc>
-<lastmod>2019-01-31T22:25:59-00:00</lastmod>
+<lastmod>2019-01-31T23:04:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/tags.html</loc>
-<lastmod>2019-01-31T22:25:59-00:00</lastmod>
+<lastmod>2019-01-31T23:04:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/categories.html</loc>
-<lastmod>2019-01-31T22:25:59-00:00</lastmod>
+<lastmod>2019-01-31T23:04:06-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://meatlo.af/pages/projects/</loc>
-<lastmod>2019-01-31T22:25:59-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.75</priority>
 </url>
 
 <url>
