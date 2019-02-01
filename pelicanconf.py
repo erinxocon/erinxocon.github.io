@@ -48,7 +48,7 @@ PAGINATION_PATTERNS = (
 # Theme Settings
 THEME = 'themes/brutalist'
 ## used for OG tags and Twitter Card data on index page
-#SITEIMAGE = 'site-cover.jpg'
+# SITEIMAGE = 'site-cover.jpg'
 ## used for OG tags and Twitter Card data of index page
 SITEDESCRIPTION = 'The ramblings of a transgender python programmer.'
 ## path to favicon
@@ -58,14 +58,14 @@ LOGO = 'icon.png'
 ## first name for nav menu if logo isn't provided
 FIRST_NAME = 'Erin'
 ## google analytics (fake code commented out)
-# GOOGLE_ANALYTICS = 'UA-0011001-1'
+GOOGLE_ANALYTICS = 'UA-72839614-3'
 ## Twitter username for Twitter Card data
 TWITTER_USERNAME = '@erinxocon'
 ## Toggle display of theme attribution in the footer (scroll down and see)
 ## Attribution is appreciated but totally fine to turn off!
 ATTRIBUTION = False
 ## Add a link to the tags page to the menu
-## Other links can be added following the same tuple pattern 
+## Other links can be added following the same tuple pattern
 MENUITEMS = [('tags', '/tags')]
 ## Social icons for footer
 ## Set these to whatever your unique public URL is for that platform
@@ -76,7 +76,7 @@ GITHUB = 'https://github.com/erinxocon'
 
 ## Disqus Sitename for comments on posts
 ## Commenting mine out for this theme site
-#DISQUS_SITENAME = 'brutalistpelican'
+# DISQUS_SITENAME = 'brutalistpelican'
 
 ## Gravatar
 ## Commenting mine out so you can see how the theme looks without one
@@ -91,16 +91,8 @@ PLUGINS = ['sitemap', 'w3c_validate', 'gzip_cache']
 ## SITEMAP PLUGIN
 SITEMAP = {
     'format': 'xml',
-    'priorities': {
-        'articles': .99,
-        'pages': .75,
-        'indexes': .5
-    },
-    'changefreqs': {
-        'articles': 'daily',
-        'pages': 'daily',
-        'indexes': 'daily'
-    },
+    'priorities': {'articles': 0.99, 'pages': 0.75, 'indexes': 0.5},
+    'changefreqs': {'articles': 'daily', 'pages': 'daily', 'indexes': 'daily'},
 }
 
 TYPOGRIFY = True
