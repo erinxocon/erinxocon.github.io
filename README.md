@@ -2,7 +2,18 @@
 
 ![Brutalist Pelican Theme](https://brutalistpelican.com/images/site-cover.jpg "Brutalist Pelican Theme") 
 
-View the demo version at [https://brutalistpelican.com](https://brutalistpelican.com).
+## Local installation
+```
+git clone git@github.com:mamcmanus/brutalistpelican.git
+cd brutalistpelican
+virtualenv venv
+source venv/bin/activate
+pelican content
+cd output
+python -m pelican.server
+```
+
+You may get warnings if you don't have the dependencies installed for the 'w3c_validate' and 'optimize_images' plugins, but it doesn't impact what gets built. Install those dependencies if you would like to use the theme in production the same way I do, otherwise it doesn't impact anything.
 
 ## Background and Inspiration 
 When I decided to get back into blogging, I knew that I wanted a site that was super simple and readable. There are many great Pelican themes out there but I couldn't quite find what I was looking for. After reading David Bryant Copeland's [Brutalist Web Design](https://brutalist-web.design/) a few weeks ago, I was inspired to try and apply those design principles to a Pelican theme. The goal of this theme is to be feature-rich while also accessible and fast. This release is just 1.0. I'll be adding more features as I shake off the front-end coding rust. 
