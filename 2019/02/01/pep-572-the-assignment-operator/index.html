@@ -17,12 +17,12 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="/images/icon.png">
 <meta name="twitter:site" content="@erinxocon">
-<meta name="twitter:title" content="A post with code&nbsp;blocks">
-<meta name="twitter:description" content="This a simple post that shows how code blocks will appear. Code blocks word wrap at smaller breakpoints. Syntax highlighting is supported via Pygments. Happy coding!">
+<meta name="twitter:title" content="pep 572 the assignment&nbsp;operator">
+<meta name="twitter:description" content="Examples and use cases for the new assignment operator">
         <!-- OG Tags -->
-<meta property="og:url" content="/2018/08/21/a-post-with-code-blocks/"/>
-<meta property="og:title" content="The Trans Pythonista | A post with code&nbsp;blocks" />
-<meta property="og:description" content="This a simple post that shows how code blocks will appear. Code blocks word wrap at smaller breakpoints. Syntax highlighting is supported via Pygments. Happy coding!" />
+<meta property="og:url" content="/2019/02/01/pep-572-the-assignment-operator/"/>
+<meta property="og:title" content="The Trans Pythonista | pep 572 the assignment&nbsp;operator" />
+<meta property="og:description" content="Examples and use cases for the new assignment operator" />
         <!-- favicon -->
         <link rel="icon" type="image/png" href="/images/icon.png">
         <!-- moment.js for date formatting -->
@@ -53,11 +53,10 @@
             };
         </script>
 
-    <meta name="description" content="This a simple post that shows how code blocks will appear. Code blocks word wrap at smaller breakpoints. Syntax highlighting is supported via Pygments. Happy coding!" />
+    <meta name="description" content="Examples and use cases for the new assignment operator" />
 
-    <meta name="tags" content="code" />
-    <meta name="tags" content="syntax" />
     <meta name="tags" content="python" />
+    <meta name="tags" content="code" />
 
 </head>
 <body>
@@ -68,8 +67,8 @@
             <nav id="menu">
                 <ul>
                         <li><a href="/tags">tags</a></li>
-                            <li class="active"><a href="/category/code">code</a></li>
                             <li><a href="/category/personal">personal</a></li>
+                            <li class="active"><a href="/category/python">python</a></li>
                 </ul>
             </nav>
         </header>
@@ -80,14 +79,14 @@
         <footer>
             <a name="top"></a>
             <p>
-              <time datetime=" 2018-08-21 00:00:00-06:00">
-                <script>document.write(moment('2018-08-21 00:00:00-06:00').format('LL'));</script>
+              <time datetime=" 2019-02-01 00:00:00-07:00">
+                <script>document.write(moment('2019-02-01 00:00:00-07:00').format('LL'));</script>
               </time>
             </p>
         </footer>
         <header>
           <h2>
-            A post with code&nbsp;blocks
+            pep 572 the assignment&nbsp;operator
           </h2>
         </header>
       <div class="content">
@@ -102,22 +101,22 @@
 <div class="highlight"><pre><span></span><span class="p">{</span>
     <span class="nt">&quot;update_id&quot;</span><span class="p">:</span> <span class="mi">8888</span><span class="p">,</span>
     <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="p">{</span>
-    <span class="nt">&quot;chat&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
-        <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;private&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;date&quot;</span><span class="p">:</span> <span class="mi">1453851465</span><span class="p">,</span>
-    <span class="nt">&quot;from&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
-        <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
-        <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
-    <span class="p">},</span>
-    <span class="nt">&quot;message_id&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
-    <span class="nt">&quot;text&quot;</span><span class="p">:</span> <span class="s2">&quot;/start&quot;</span>
+        <span class="nt">&quot;chat&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
+            <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;private&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
+        <span class="p">},</span>
+        <span class="nt">&quot;date&quot;</span><span class="p">:</span> <span class="mi">1453851465</span><span class="p">,</span>
+        <span class="nt">&quot;from&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
+            <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
+        <span class="p">},</span>
+        <span class="nt">&quot;message_id&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="nt">&quot;text&quot;</span><span class="p">:</span> <span class="s2">&quot;/start&quot;</span>
     <span class="p">}</span>
 <span class="p">}</span>
 </pre></div>

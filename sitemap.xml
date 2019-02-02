@@ -5,55 +5,55 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-02-01T22:20:02-00:00</lastmod>
+<lastmod>2019-02-01T23:44:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-02-01T22:20:02-00:00</lastmod>
+<lastmod>2019-02-01T23:44:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-02-01T22:20:02-00:00</lastmod>
+<lastmod>2019-02-01T23:44:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-02-01T22:20:02-00:00</lastmod>
+<lastmod>2019-02-01T23:44:41-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/2019/02/01/a-post-with-code-blocks/</loc>
+<loc>/2019/02/01/a-simple-post/</loc>
 <lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>/category/code</loc>
+<loc>/2019/02/01/pep-572-the-assignment-operator/</loc>
+<lastmod>2019-02-01T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
+</url>
+
+<url>
+<loc>/category/personal</loc>
 <lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/code/</loc>
-<lastmod>2019-02-01T00:00:00-07:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>/tag/syntax/</loc>
+<loc>/category/python</loc>
 <lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -61,6 +61,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/python/</loc>
+<lastmod>2019-02-01T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/tag/code/</loc>
 <lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
