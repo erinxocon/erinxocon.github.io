@@ -4,84 +4,84 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://meatlo.af/</loc>
-<lastmod>2019-01-31T23:09:51-00:00</lastmod>
+<loc>/</loc>
+<lastmod>2019-02-01T22:06:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/archives.html</loc>
-<lastmod>2019-01-31T23:09:51-00:00</lastmod>
+<loc>/archives.html</loc>
+<lastmod>2019-02-01T22:06:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/tags.html</loc>
-<lastmod>2019-01-31T23:09:51-00:00</lastmod>
+<loc>/tags.html</loc>
+<lastmod>2019-02-01T22:06:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/categories.html</loc>
-<lastmod>2019-01-31T23:09:51-00:00</lastmod>
+<loc>/categories.html</loc>
+<lastmod>2019-02-01T22:06:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/2018/08/21/a-post-with-code-blocks/</loc>
+<loc>/2018/08/21/a-post-with-code-blocks/</loc>
 <lastmod>2018-08-21T00:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/2018/08/21/a-simple-post/</loc>
+<loc>/2018/08/21/a-simple-post/</loc>
 <lastmod>2018-08-21T00:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/2018/08/21/an-extra-post/</loc>
+<loc>/2018/08/21/an-extra-post/</loc>
 <lastmod>2018-08-21T00:00:00-06:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.99</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/category/code</loc>
+<loc>/category/code</loc>
 <lastmod>2018-08-21T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/category/personal</loc>
+<loc>/category/personal</loc>
 <lastmod>2018-08-21T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/tag/code/</loc>
+<loc>/tag/code/</loc>
 <lastmod>2018-08-21T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/tag/syntax/</loc>
+<loc>/tag/syntax/</loc>
 <lastmod>2018-08-21T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/tag/python/</loc>
+<loc>/tag/python/</loc>
 <lastmod>2018-08-21T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
