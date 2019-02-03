@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = "Erin O'Connell"
+AUTHOR = "Erin O'Connell 🌈🍰🌈"
 SITENAME = 'The Trans Pythonista'
 SITEURL = '/'
 
