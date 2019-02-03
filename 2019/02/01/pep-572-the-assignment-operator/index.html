@@ -13,31 +13,32 @@
         <title>The Trans Pythonista</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charset="utf-8" />
+        <link href="https://meatlo.af/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="The Trans Pythonista Full Atom Feed" />
         <!-- twitter card metadata -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="/images/icon.png">
+<meta name="twitter:image" content="https://meatlo.af/images/icon.png">
 <meta name="twitter:site" content="@erinxocon">
 <meta name="twitter:title" content="pep 572 the assignment&nbsp;operator">
 <meta name="twitter:description" content="Examples and use cases for the new assignment operator">
         <!-- OG Tags -->
-<meta property="og:url" content="/2019/02/01/pep-572-the-assignment-operator/"/>
+<meta property="og:url" content="https://meatlo.af/2019/02/01/pep-572-the-assignment-operator/"/>
 <meta property="og:title" content="The Trans Pythonista | pep 572 the assignment&nbsp;operator" />
 <meta property="og:description" content="Examples and use cases for the new assignment operator" />
         <!-- favicon -->
-        <link rel="icon" type="image/png" href="/images/icon.png">
+        <link rel="icon" type="image/png" href="https://meatlo.af/images/icon.png">
         <!-- moment.js for date formatting -->
-        <script src="/theme/js/moment.js"></script>
+        <script src="https://meatlo.af/theme/js/moment.js"></script>
         <!-- css -->
-        <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="https://meatlo.af/theme/css/main.css" />
 		<script>
 			
                 /*! grunt-grunticon Stylesheet Loader - v2.1.2 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
     
     (function(e){function t(t,n,r,o){"use strict";function a(){for(var e,n=0;u.length>n;n++)u[n].href&&u[n].href.indexOf(t)>-1&&(e=!0);e?i.media=r||"all":setTimeout(a)}var i=e.document.createElement("link"),l=n||e.document.getElementsByTagName("script")[0],u=e.document.styleSheets;return i.rel="stylesheet",i.href=t,i.media="only x",i.onload=o||null,l.parentNode.insertBefore(i,l),a(),i}var n=function(r,o){"use strict";if(r&&3===r.length){var a=e.navigator,i=e.Image,l=!(!document.createElementNS||!document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||e.opera&&-1===a.userAgent.indexOf("Chrome")||-1!==a.userAgent.indexOf("Series40")),u=new i;u.onerror=function(){n.method="png",n.href=r[2],t(r[2])},u.onload=function(){var e=1===u.width&&1===u.height,a=r[e&&l?0:e?1:2];n.method=e&&l?"svg":e?"datapng":"png",n.href=a,t(a,null,null,o)},u.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",document.documentElement.className+=" grunticon"}};n.loadCSS=t,e.grunticon=n})(this);(function(e,t){"use strict";var n=t.document,r="grunticon:",o=function(e){if(n.attachEvent?"complete"===n.readyState:"loading"!==n.readyState)e();else{var t=!1;n.addEventListener("readystatechange",function(){t||(t=!0,e())},!1)}},a=function(e){return t.document.querySelector('link[href$="'+e+'"]')},c=function(e){var t,n,o,a,c,i,u={};if(t=e.sheet,!t)return u;n=t.cssRules?t.cssRules:t.rules;for(var l=0;n.length>l;l++)o=n[l].cssText,a=r+n[l].selectorText,c=o.split(");")[0].match(/US\-ASCII\,([^"']+)/),c&&c[1]&&(i=decodeURIComponent(c[1]),u[a]=i);return u},i=function(e){var t,o,a;o="data-grunticon-embed";for(var c in e)if(a=c.slice(r.length),t=n.querySelectorAll(a+"["+o+"]"),t.length)for(var i=0;t.length>i;i++)t[i].innerHTML=e[c],t[i].style.backgroundImage="none",t[i].removeAttribute(o);return t},u=function(t){"svg"===e.method&&o(function(){i(c(a(e.href))),"function"==typeof t&&t()})};e.embedIcons=i,e.getCSS=a,e.getIcons=c,e.ready=o,e.svgLoadedCallback=u,e.embedSVG=u})(grunticon,this);
                 
-                grunticon(["/theme/css/icons.data.svg.css", "/theme/css/icons.data.png.css", "/theme/css/icons.fallback.css"]);
+                grunticon(["https://meatlo.af/theme/css/icons.data.svg.css", "https://meatlo.af/theme/css/icons.data.png.css", "https://meatlo.af/theme/css/icons.fallback.css"]);
             </script>
-        <noscript><link href="/theme/css/icons.fallback.css" rel="stylesheet"></noscript>
+        <noscript><link href="https://meatlo.af/theme/css/icons.fallback.css" rel="stylesheet"></noscript>
         <!-- menu toggle javascript -->
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", initMenu);
@@ -62,13 +63,13 @@
 <body>
     <div role="banner" id="masthead">
         <header>
-            <a href="/"><img src="/images/icon.png" alt="McManus Logo"></a>
+            <a href="/"><img src="https://meatlo.af/images/icon.png" alt="McManus Logo"></a>
             <a href="#menu" id="menu-link">more stuff</a>
             <nav id="menu">
                 <ul>
                         <li><a href="/tags">tags</a></li>
-                            <li><a href="/category/personal">personal</a></li>
-                            <li class="active"><a href="/category/python">python</a></li>
+                            <li><a href="https://meatlo.af/category/personal">personal</a></li>
+                            <li class="active"><a href="https://meatlo.af/category/python">python</a></li>
                 </ul>
             </nav>
         </header>
@@ -90,36 +91,52 @@
           </h2>
         </header>
       <div class="content">
-         <h2>Python Code&nbsp;block</h2>
-<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">my_handler</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">context</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Received event: &quot;</span> <span class="o">+</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">2</span><span class="p">))</span>
-    <span class="n">handle</span><span class="p">(</span><span class="n">event</span><span class="p">[</span><span class="s1">&#39;message&#39;</span><span class="p">])</span>
+         <h2>Introduction</h2>
+<p><a href="https://www.python.org/dev/peps/pep-0572/"><span class="caps">PEP</span> 572</a>. Love it or hate it (you should <em>love</em> it), it is now merged into python and will be released in python 3.8. I had an initial negative reaction to this <span class="caps">PEP</span>, however I&#8217;ve come around! When this <span class="caps">PEP</span> was proposed, I was not coding in python full time. I was working on pipenv during my spare time and I didn&#8217;t see much use for it, hence I found it an unnessasary addition. I now have a job where I code in python full time and I have seen many places in our code base where this can be&nbsp;used!</p>
+<p>The aim of this post is to show how it can be very useful, and that change, while scary, can be a good thing! Any time I find a use for it in any code base I work on, I&#8217;ll make an entry to this post! Let&#8217;s get&nbsp;started!</p>
+<h2>What is&nbsp;it?</h2>
+<p><span class="caps">PEP</span> 572, entitled assignment expressions, adds a way to assign variables within an expression. The operator to do this is <code>:=</code>, or as some people have been calling it, the walrus operator. Let&#8217;s look at a simple&nbsp;example.</p>
+<div class="highlight"><pre><span></span><span class="c1"># without assignment operator</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="n">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;^FOO&#39;</span><span class="p">,</span><span class="s1">&#39;FOOBAR&#39;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">match</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
 </pre></div>
 
 
-<h2><span class="caps">JSON</span> code&nbsp;block</h2>
-<div class="highlight"><pre><span></span><span class="p">{</span>
-    <span class="nt">&quot;update_id&quot;</span><span class="p">:</span> <span class="mi">8888</span><span class="p">,</span>
-    <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="p">{</span>
-        <span class="nt">&quot;chat&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
-            <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;private&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
-        <span class="p">},</span>
-        <span class="nt">&quot;date&quot;</span><span class="p">:</span> <span class="mi">1453851465</span><span class="p">,</span>
-        <span class="nt">&quot;from&quot;</span><span class="p">:</span> <span class="p">{</span>
-            <span class="nt">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Matt&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="err">put_your_id_here</span><span class="p">,</span>
-            <span class="nt">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;McManus&quot;</span><span class="p">,</span>
-            <span class="nt">&quot;rolename&quot;</span><span class="p">:</span> <span class="s2">&quot;mcman_s&quot;</span>
-        <span class="p">},</span>
-        <span class="nt">&quot;message_id&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
-        <span class="nt">&quot;text&quot;</span><span class="p">:</span> <span class="s2">&quot;/start&quot;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
+<div class="highlight"><pre><span></span><span class="c1"># with the assignment operator</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="k">if</span> <span class="n">match</span> <span class="p">:</span><span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;^FOO&#39;</span><span class="p">,</span><span class="s1">&#39;FOOBAR&#39;</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
 </pre></div>
+
+
+<p>This is a very simple example, saving one line of code, although it&#8217;s a pattern I use often at work. Let&#8217;s break it&nbsp;down…</p>
+<p>In the first code snippet, we are doing pretty standard stuff. We set <code>match</code> equal to the result of <code>re.search()</code>. Next if <code>match</code> is not a <code>NoneType</code> print out the first group. Let&#8217;s save a line of code by introducing the assingment operator. Instead of assigning <code>match</code> first, we assign it in a conditional expresion. It basically reads match becomes the retured value of <code>re.search()</code> and then the contional is evalluated against the value of <code>match</code> which also becomes a valriable in the current scope. Again this is am extremely trivial example. I could write some made up super complicated ways to use the assignment operator, however that&#8217;s not real life, that&#8217;s not how I&#8217;m going to use the assingment operator, at least not at this time. I would reccomend reading <a href="https://www.python.org/dev/peps/pep-0572/#the-importance-of-real-code">the importance of real code</a> from the <span class="caps">PEP</span> 572 proposal. That is one of the reasons I wanted to make this blog post. I want to post actual examples from code bases I work on, where it just makes sense to use the assignment&nbsp;operator.</p>
+<h2>Examples</h2>
+<h4>While&nbsp;Loops</h4>
+<p>Old:</p>
+<div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;source.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dest.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dest</span><span class="p">:</span>
+    <span class="k">while</span> <span class="bp">True</span><span class="p">:</span>
+        <span class="n">chunk</span> <span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">1024</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">chunk</span><span class="p">:</span>
+            <span class="k">break</span>
+        <span class="n">dest</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
+</pre></div>
+
+
+<p>True:</p>
+<div class="highlight"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;source.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">src</span><span class="p">,</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;dest.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">dest</span><span class="p">:</span>
+    <span class="k">while</span> <span class="n">chunk</span> <span class="p">:</span><span class="o">=</span> <span class="n">src</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="mi">1024</span><span class="p">):</span>
+        <span class="n">dest</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">chunk</span><span class="p">)</span>
+</pre></div>
+
+
+<p><strong>More to come as I work through more of my code&nbsp;bases!</strong></p>
+<h2>Other&nbsp;examples</h2>
+<p><a href="https://github.com/python/cpython/pull/8095/files">This</a> <span class="caps">PR</span> has a lot of examples of places in the standard library where the assignment operator is being used with while statements in python 3.8. Similiarly <a href="https://github.com/python/cpython/pull/8097/files">this</a> <span class="caps">PR</span> contains places in the standard library where the assignment operator is being used for match/group capture along with <a href="https://github.com/python/cpython/pull/8098/files">this</a> <span class="caps">PR</span> contains examples of using the assignment operator in a list&nbsp;comprehension.</p>
       </div>
       <div class="back-to-top">
           <a href="#top">back to top</a>
