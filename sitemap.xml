@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://meatlo.af/</loc>
-<lastmod>2019-02-02T22:16:15-00:00</lastmod>
+<lastmod>2019-02-02T22:35:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/archives.html</loc>
-<lastmod>2019-02-02T22:16:15-00:00</lastmod>
+<lastmod>2019-02-02T22:35:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/tags.html</loc>
-<lastmod>2019-02-02T22:16:15-00:00</lastmod>
+<lastmod>2019-02-02T22:35:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/categories.html</loc>
-<lastmod>2019-02-02T22:16:15-00:00</lastmod>
+<lastmod>2019-02-02T22:35:54-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -60,15 +60,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://meatlo.af/tag/python/</loc>
+<loc>https://meatlo.af/tag/pep/</loc>
 <lastmod>2019-02-02T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://meatlo.af/tag/code/</loc>
+<loc>https://meatlo.af/tag/assignment-operator/</loc>
 <lastmod>2019-02-02T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://meatlo.af/tag/examples/</loc>
+<lastmod>2019-02-02T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://meatlo.af/tag/python/</loc>
+<lastmod>2019-02-01T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://meatlo.af/tag/code/</loc>
+<lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
