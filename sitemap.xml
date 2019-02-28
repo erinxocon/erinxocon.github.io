@@ -5,30 +5,37 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://meatlo.af/</loc>
-<lastmod>2019-02-07T22:00:47-00:00</lastmod>
+<lastmod>2019-02-27T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/archives.html</loc>
-<lastmod>2019-02-07T22:00:47-00:00</lastmod>
+<lastmod>2019-02-27T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/tags.html</loc>
-<lastmod>2019-02-07T22:00:47-00:00</lastmod>
+<lastmod>2019-02-27T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://meatlo.af/categories.html</loc>
-<lastmod>2019-02-07T22:00:47-00:00</lastmod>
+<lastmod>2019-02-27T20:38:47-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://meatlo.af/2019/02/27/eating-disorders/</loc>
+<lastmod>2019-02-27T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.99</priority>
 </url>
 
 <url>
@@ -39,15 +46,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://meatlo.af/2019/02/01/a-simple-post/</loc>
-<lastmod>2019-02-01T00:00:00-07:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.99</priority>
-</url>
-
-<url>
 <loc>https://meatlo.af/category/personal</loc>
-<lastmod>2019-02-01T00:00:00-07:00</lastmod>
+<lastmod>2019-02-27T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -55,6 +55,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://meatlo.af/category/python</loc>
 <lastmod>2019-02-02T00:00:00-07:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://meatlo.af/tag/personal/</loc>
+<lastmod>2019-02-27T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -76,20 +83,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://meatlo.af/tag/examples/</loc>
 <lastmod>2019-02-02T00:00:00-07:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://meatlo.af/tag/python/</loc>
-<lastmod>2019-02-01T00:00:00-07:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://meatlo.af/tag/code/</loc>
-<lastmod>2019-02-01T00:00:00-07:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
